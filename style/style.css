@@ -115,6 +115,8 @@ html {
 }
 .img-team {
   gap: 40px;
+  display: flex;
+  flex-direction: row;
 }
 .teamcapo {
   width: 500px;
@@ -127,6 +129,8 @@ html {
 .rect {
   margin-right: 20px;
   width: 400px;
+}
+.teamrect {
 }
 .svg {
   margin-right: 10px;
@@ -348,6 +352,7 @@ hr {
   font-size: 16px;
   font-weight: 400;
 }
+/* SECTION 3 */
 
 @media (max-width: 1000px) {
   .container {
@@ -387,6 +392,14 @@ hr {
 }
 
 @media (max-width: 768px) {
+  .section-2 {
+    flex-direction: column;
+  }
+  .container {
+    width: 768px;
+    align-items: center;
+    flex-direction: column;
+  }
   .rect {
     width: 218.018px;
     height: 231.469px;
@@ -450,7 +463,9 @@ hr {
     row-gap: 16px;
     width: 343px;
   }
-
+  .container-2-2 {
+    flex-direction: column;
+  }
   .container-3 {
     margin-top: 32px;
   }
@@ -496,5 +511,46 @@ hr {
     padding: 0 16px;
   }
   .section-1 {
+  }
+  .container-2-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .teamrect {
+    display: flex;
+    flex-direction: row;
+  }
+  .img-team {
+    flex-direction: column;
+    width: 343px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .all-text {
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    padding: 0 16px;
+  }
+  .all-text {
+    width: 343px;
+    flex-direction: column;
+  }
+  .rect {
+    width: 218px;
+  }
+  .teamcall {
+    width: 106px;
+  }
+  .teamcapo {
+    width: 343px;
+  }
+  .text-2 {
+    width: 343px;
+  }
+  body {
+    width: 375px;
   }
 }
