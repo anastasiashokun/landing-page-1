@@ -23,6 +23,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 1200px;
+    height: fit-content;
+  }
+  .teamcapo {
+    position: none;
+  }
+  .container-3 {
+    flex-direction: column;
+    position: relative;
+  }
+  .teamrect {
+    flex-direction: column;
+    margin-right: 0px;
+    position: absolute;
+    top: 850px;
   }
 }
 
