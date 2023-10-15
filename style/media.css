@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+ @media (max-width: 992px) {
   .container {
     padding: 0 30px;
   }
@@ -25,9 +25,14 @@
     justify-content: center;
     height: 1200px;
     height: fit-content;
+    position: relative;
   }
   .teamcapo {
-    position: none;
+    position: absolute;
+    top: 200px;
+  }
+  .img-team {
+    margin-top: 32px;
   }
   .container-3 {
     flex-direction: column;
@@ -39,9 +44,10 @@
     position: absolute;
     top: 850px;
   }
+  
 }
 
-@media (min-width: 992px) {
+ @media (min-width: 992px) {
   .navigation {
     display: block;
   }
@@ -127,6 +133,7 @@
   }
   .container-3 {
     margin-top: 32px;
+    flex-direction: column;
   }
 
   .header-text {
@@ -143,7 +150,10 @@
     font-size: 16px;
   }
   .teamcapo {
-    width: 375px;
+    width: 340px;
+    margin-top: 20px;
+    position: absolute;
+    top: 200px;
   }
 
   .buttons {
@@ -215,4 +225,13 @@
   .teamrect {
     margin: 0px;
   }
-}
+  .header {
+    max-width: 375px;
+    width: 100%;
+  }
+  .container-2-3 {
+    flex-direction: column;
+  }
+} */
+  */
+
